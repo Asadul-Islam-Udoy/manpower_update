@@ -1,0 +1,74 @@
+.booking__information__container{ 
+ min-height: 100vh;
+ width: 100%;
+}
+.booking__information__container>div{
+    width: 100%;
+    min-height: 100vh;
+}
+.booking__info__container{
+    width: 100%;
+    min-height: 40px;
+    /* color: black; */
+    display: flex;
+    flex-direction: column;
+}
+.booking__info__container>div{
+    width: 100%;
+    min-height: 40px;
+    /* color: black; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.booking__information__container>div>h3{
+    text-align: center;
+    background-color: rgb(8, 48, 77);
+    padding: 5px;
+    color: white;
+}
+.booking__info__container>div{
+  margin: 0px;
+  padding: 5px;
+}
+.booking__info__container>div>div{
+   width: 100%;
+   margin: 10px;
+}
+.booking__info__container>div>div>li{
+    padding: 5px;
+    list-style: none;
+    border-bottom: 1px solid black;
+    width:140px;
+    font-weight: bold;
+}
+p{
+    margin-left: 5px;
+    /* font-style: italic; */
+}
+span{
+    margin-left: 5px;
+}
+.css-1rv476z-MuiInputBase-input-MuiFilledInput-input {
+    padding-top:10px!important;
+}
+.css-nh22sz-MuiSelect-select-MuiInputBase-input-MuiFilledInput-input  {
+    padding-top:10px!important;
+}
+.client__info__container{
+    width: 100%;
+    min-height: 40px;
+}
+.client__info__container>h3{
+    text-align: center;
+    background-color: rgb(8, 48, 77);
+    padding: 5px;
+}
+.worker__info__container{
+    width: 100%;
+    min-height: 40px;
+}
+.worker__info__container>h3{
+    text-align: center;
+    background-color: rgb(8, 48, 77);
+    padding: 5px;
+}

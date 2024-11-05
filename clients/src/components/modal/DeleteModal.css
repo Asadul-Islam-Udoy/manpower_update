@@ -1,0 +1,35 @@
+.worker__delete__container{
+    width: 100%;
+    padding: 10px;
+    
+}
+
+.MuiDialogTitle-root+.css-ypiqx9-MuiDialogContent-root{
+   /* width: 500px;  
+   height: 350px;
+   background-color: rgb(18, 48, 85);
+   box-shadow: 0px 0px 0px 5px black; */
+}
+.css-1153z2v-MuiTypography-root-MuiDialogTitle-root{
+    background-color: rgb(18, 48, 85);
+}
+.css-knqc4i-MuiDialogActions-root {
+  background-color: rgb(18, 48, 85);
+}
+.delete__animision{
+    font-size: 20px !important;
+    animation: fide_in 0.5s linear 1s infinite;
+}
+@keyframes fide_in {
+    from{
+      rotate: 90deg;
+      color: white;
+    }
+}
+@media(max-width:700px)and(min-width:100px){
+    .MuiDialogTitle-root+.css-ypiqx9-MuiDialogContent-root{
+        width: 100px;  
+        height: 100px;
+        padding: 0px;
+     }   
+}

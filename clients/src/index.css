@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body{
+  background-color:rgb(255, 255, 255);
+}
+
+.sidbar__app,
+.sidbar__content {
+  width: 100%;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.sidbar__app {
+  display: flex;
+  position: relative;
+}
+.sidbar__content {
+  min-height: 100vh;
+  width: 100%;
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: #0a1a37;
+
+}
+.sidbar__container__2{
+  min-height: 100vh;
+  width: 100%;
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: rgb(225, 218, 218);
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+@media(max-width:700px) {
+  .sidbar__app,
+  .sidbar__content {
+  min-height: 137vh;
+  width: 180vw;
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: #0a1a37;
+}
+}

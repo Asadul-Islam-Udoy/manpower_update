@@ -1,0 +1,83 @@
+.css-3eek4p-MuiDataGrid-main {
+  overflow: auto;
+  width: 100%;
+}
+
+.comment__box__container {
+  min-height: 200px;
+  width: 350px;
+  position: absolute;
+  display: none;
+  z-index: 99;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+.comment__box__container > div {
+  padding: 4px;
+  margin: 2px;
+  width: 100%;
+}
+
+.rating__container:hover .comment__box__container {
+  display: block;
+}
+
+
+:root{ --main-color: #1ABB9C; }
+.serviceBox{
+    color: var(--main-color);
+    background: #fff;
+    font-family: 'Raleway', sans-serif;
+    padding: 50px 15px;
+    border-radius: 10px 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+}
+.serviceBox:before,
+.serviceBox:after{
+    content: "";
+    background: var(--main-color);
+    width: 150px;
+    height: 150px;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.15);
+    transform: rotate(45deg);
+    position: absolute;
+    top: -85px;
+    left: -85px;
+}
+.serviceBox:after{
+    top: auto;
+    bottom: -85px;
+    left: auto;
+    right: -85px;
+    box-shadow: -5px -5px 5px 0px rgba(0,0,0,0.15);
+}
+.serviceBox .service-icon{
+    color: var(--main-color);
+    font-size: 45px;
+    line-height: 45px;
+    margin: 0 0 15px;
+}
+.serviceBox .title{
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+}
+.serviceBox .description{
+    color: #051f58;
+    /* font-size: 13px; */
+    line-height: 10px;
+    margin: 10 10 15px;
+    padding: 5px;
+    /* border-bottom:1px solid black ; */
+}
+.serviceBox.red{ --main-color: #F12945; }
+.serviceBox.yellow{ --main-color: #F3B202; }
+.serviceBox.grey{ --main-color: #2F5560; }
+@media only screen and (max-width: 1199px){
+    .serviceBox{ margin: 0 0 30px; }
+}

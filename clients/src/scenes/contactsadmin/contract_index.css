@@ -1,0 +1,11 @@
+.contract__index__container{
+background-color: rgb(223, 247, 255);
+min-height: 100vh;
+width: 100%;
+/* overflow: scroll;
+position: absolute;
+bottom: 0; */
+}
+.contract__index__box{
+
+}
